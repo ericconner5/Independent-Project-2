@@ -11,111 +11,133 @@
   <body>
     <div class="container">
     <header>Which software development track is right for you?</header>
-    <h1>Complete the quiz and discover the track that suits you!</h1>
+    <h1>Complete the quiz to discover the track that's for you!</h1>
     <form id="quiz">
       <h2>Question 1:</h2>
       <h3>Do you enjoy solving logic problems, creating dynamic web content or styling user interfaces more?</h3>
+
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="q1" id="logic" value=("c#/.net">
+        <input class="form-check-input" type="radio" name="q1" id="logic" value="logic">
         <label class="form-check-label" for "logic">
-      <h5>Solving logic problems</h5>
+          Solving logic problems
         </label>
+      </div>
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="q1" id="dynamic" value=("ruby/rails">
-        <label class="form-check-label" for "dynamic">
-        <h5>Creating dynamic web content</h5>
+        <input class="form-check-input" type="radio" name="q1" id="web" value="web">
+        <label class="form-check-label" for "web">
+        Creating dynamic web content
         </label>
+      </div>
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="q1" id="style" value=("css/react">
+        <input class="form-check-input" type="radio" name="q1" id="style" value="style">
         <label class="form-check-label" for "style">
         Styling user interfaces
         </label>
+      </div>
 
       <h2>Question 2:</h2>
       <h3>Are you more inclined to work on math problems, play video games or create visual art?</h3>
+
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="q2" id="math" value=("c#/.net">
-        <label class="form-check-label" for "math">
+        <input class="form-check-input" type="radio" name="q2" id="logic" value="logic">
+        <label class="form-check-label" for "logic">
         Work on math problems
         </label>
+      </div>
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="q2" id="games" value=("ruby/rails">
-        <label class="form-check-label" for "games">
+        <input class="form-check-input" type="radio" name="q2" id="web" value="web">
+        <label class="form-check-label" for "web">
         Play video games
         </label>
+      </div>
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="q2" id="art" value=("css/react">
-        <label class="form-check-label" for "art">
+        <input class="form-check-input" type="radio" name="q2" id="style" value="style">
+        <label class="form-check-label" for "style">
         Create visual art
         </label>
+      </div>
 
-        <h2>Question 3:</h2>
-        <h3>Are you interested in front end development, back end development or interactive web development more?</h3>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="q3" id="back" value=("c#/.net">
-          <label class="form-check-label" for "back">
-            Back end development
-          </label>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="q3" id="web" value=("ruby/rails">
-            <label class="form-check-label" for "web">
-              Interactive web development
-            </label>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="q3" id="front" value=("css/react">
-              <label class="form-check-label" for "front">
-                Front end development
-              </label>
+      <h2>Question 3:</h2>
+      <h3>Are you interested in front end development, back end development or interactive web development more?</h3>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="q3" id="logic" value="logic">
+        <label class="form-check-label" for "logic">
+          Back end development
+        </label>
+      </div>
+      <div class="form-check">
+      <input class="form-check-input" type="radio" name="q3" id="web" value="web">
+      <label class="form-check-label" for "web">
+        Interactive web development
+      </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="q3" id="style" value="style">
+        <label class="form-check-label" for "style">
+          Front end development
+        </label>
+      </div>
 
-              <h2>Question 4:</h2>
-              <h3>Would you generally prefer working with Windows, OS X or cross-platform?</h3>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="q4" id="windows" value=("c#/.net">
-                <label class="form-check-label" for "windows">
-                  Windows
-                </label>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="q4" id="osx" value=("ruby/rails">
-                  <label class="form-check-label" for "osx">
-                    OS X
-                  </label>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="q4" id="cross-platform" value=("css/react">
-                    <label class="form-check-label" for "cross-platform">
-                      Cross-platform
-                    </label>
+      <h2>Question 4:</h2>
+      <h3>Would you generally prefer working with Windows, OS X or cross-platform?</h3>
 
-                    <h2>Question 5:</h2>
-                    <h3>Would you prefer a language that is more general purpose, more automated/easier to use for web development or one that is focused on design elements for the user interface?</h3>
-                    <div class="form-check">
-                    <input class="form-check-input" type="radio" name="q5" id="general" value=("c#/.net">
-                    <label class="form-check-label" for "general">
-                    General purpose
-                    </label>
-                    <div class="form-check">
-                    <input class="form-check-input" type="radio" name="q5" id="auto" value=("ruby/rails">
-                    <label class="form-check-label" for "auto">
-                          More automated for web development
-                    </label>
-                    <div class="form-check">
-                    <input class="form-check-input" type="radio" name="q5" id="design" value=("css/react">
-                    <label class="form-check-label" for "design">
-                            Design for the UI
-                    </label>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="q4" id="logic" value="logic">
+        <label class="form-check-label" for "logic">
+          Windows
+        </label>
+      </div>
+      <div class="form-check">
+      <input class="form-check-input" type="radio" name="q4" id="web" value="web">
+      <label class="form-check-label" for "web">
+        OS X
+      </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="q4" id="style" value="style">
+        <label class="form-check-label" for "style">
+          Cross-platform
+        </label>
+      </div>
+
+      <h2>Question 5:</h2>
+      <h3>Would you prefer a language that is more general purpose, more automated/easier to use for web development or one that is focused on design elements for the user interface?</h3>
+
+      <div class="form-check">
+      <input class="form-check-input" type="radio" name="q5" id="logic" value="logic">
+      <label class="form-check-label" for "logic">
+      General purpose
+      </label>
+      </div>
+      <div class="form-check">
+      <input class="form-check-input" type="radio" name="q5" id="web" value="web">
+      <label class="form-check-label" for "web">
+            More automated for web development
+      </label>
+      </div>
+      <div class="form-check">
+      <input class="form-check-input" type="radio" name="q5" id="style" value="style">
+      <label class="form-check-label" for "style">
+              Design for the UI
+      </label>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Compute!</button>
+
+      <div class="container">
+        <div class="c#/.net">
+        <h3>You should learn C#/.net!</h3>
+        </div>
+        <div class="ruby/rails">
+        <h3>You should learn Ruby/Rails!</h3>
+        </div>
+        <div class="css/react">
+          <h3>You should learn CSS/React!</h3>
+        </div>
+      </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+    </div>
 
   </body>
-</html>
+  </html>

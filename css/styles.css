@@ -1,11 +1,32 @@
+header {
+  text-align: center;
+  font-size: 190%
+}
 body {
+  background: url("../img/wood.jpeg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 1px 1px 1px #777;
+  margin: 0;
+  padding 0;
+}
+
+.logic, .web, .style {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  text-align: justify;
 
 }
 
-h1 {
-
-}
-
-h5 {
+.dynamic {
   text-align: left;
 }
