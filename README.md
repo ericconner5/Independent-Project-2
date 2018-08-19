@@ -2,7 +2,7 @@
 
 #### This brief questionnaire helps an Epicodus student decide between three tracks.
 
-#### By _**{List of contributors}**_
+#### By _**Eric Conner**_
 
 ## Description
 
@@ -31,4 +31,4 @@ To craft this quiz I used a text editor called Atom. Bootstrap and jQuery for Ja
 
 ### License
 
-Copyright (c) 2018 **_{Epicodus/MIT}_**
+Copyright (c) 2018 **_Eric Conner/Epicodus/MIT_**
